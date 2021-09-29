@@ -20,6 +20,7 @@ token = os.environ['TELEGRAM_TOKEN']
 # bot = telebot.TeleBot(token)
 # some_api = some_api_lib.connect(some_api_token)
 #              ...
+bot = telebot.TeleBot("token")
 @bot.message_handler(commands=["start"])
 def start(message):
     bot.send_message(message.chat.id, "Что.")
