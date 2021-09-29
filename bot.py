@@ -3,7 +3,7 @@ import redis
 import os
 import telebot
 import requests
-import string
+from strings import string
 # import some_api_lib
 # import ...
 
