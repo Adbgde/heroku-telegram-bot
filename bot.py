@@ -2,7 +2,7 @@
 import os
 import telebot
 import requests
-from strings import string
+import string
 # import some_api_lib
 # import ...
 
